@@ -1,5 +1,5 @@
 ﻿#_______________________________________________________________________
-#----------------------ส่วนของ GUI---------------------------------------
+#----------------------ส่วนของ GUI 2-------------------------------------
 #_______________________________________________________________________
 import tkinter as tk
 from tkinter import filedialog
@@ -110,7 +110,7 @@ current_date = datetime.now()
 df['dateSoon'] = (df['DateUs'] - current_date).dt.days
 
 # กรองและดึงข้อมูลตามเงื่อนไข
-filtered_data = df[(df['dateSoon'] == 9 )]
+filtered_data = df[(df['dateSoon'] == 7 )]
 selected_columns = filtered_data
 
 haveContract = False

@@ -1,0 +1,2 @@
+C:/Users/NewAng/Desktop/BotPythonForSetEmail/dist/BotMail/BotMail.exe
+marker.txt
